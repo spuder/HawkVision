@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name unify-nano)(type KiCad)(uri "$(KIPRJMOD)/unify-nano.pretty")(options "")(descr ""))
+)

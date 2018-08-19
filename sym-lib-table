@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Hak5-unify-rescue)(type Legacy)(uri ${DROPBOX}/Hak5-unify-rescue.lib)(options "")(descr ""))
+)

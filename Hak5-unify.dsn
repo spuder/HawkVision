@@ -1,0 +1,165 @@
+(pcb "/Users/sowen/Dropbox/Applictions/KiCad/Hak5-unify.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 123689 -86900 153338 -104575)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm
+      (place U1 128270 -91440 front 0 (PN "Unify-Nano"))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm
+      (place J1 148590 -95250 front 0 (PN Conn_01x04))
+    )
+    (component Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+      (place R1 144780 -95250 front 270 (PN R))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm
+      (outline (path signal 100  -500 1000  1000 1000))
+      (outline (path signal 100  1000 1000  1000 -11000))
+      (outline (path signal 100  1000 -11000  -1000 -11000))
+      (outline (path signal 100  -1000 -11000  -1000 500))
+      (outline (path signal 100  -1000 500  -500 1000))
+      (outline (path signal 120  -1060 -11060  1060 -11060))
+      (outline (path signal 120  -1060 -1000  -1060 -11060))
+      (outline (path signal 120  1060 -1000  1060 -11060))
+      (outline (path signal 120  -1060 -1000  1060 -1000))
+      (outline (path signal 120  -1060 0  -1060 1060))
+      (outline (path signal 120  -1060 1060  0 1060))
+      (outline (path signal 50  -1500 1500  -1500 -11500))
+      (outline (path signal 50  -1500 -11500  1500 -11500))
+      (outline (path signal 50  1500 -11500  1500 1500))
+      (outline (path signal 50  1500 1500  -1500 1500))
+      (pin Rect[A]Pad_1350x1350_um 1 0 0)
+      (pin Oval[A]Pad_1350x1350_um 2 0 -2000)
+      (pin Oval[A]Pad_1350x1350_um 3 0 -4000)
+      (pin Oval[A]Pad_1350x1350_um 4 0 -6000)
+      (pin Oval[A]Pad_1350x1350_um 5 0 -8000)
+      (pin Oval[A]Pad_1350x1350_um 6 0 -10000)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm
+      (outline (path signal 100  -500 1000  1000 1000))
+      (outline (path signal 100  1000 1000  1000 -7000))
+      (outline (path signal 100  1000 -7000  -1000 -7000))
+      (outline (path signal 100  -1000 -7000  -1000 500))
+      (outline (path signal 100  -1000 500  -500 1000))
+      (outline (path signal 120  -1060 -7060  1060 -7060))
+      (outline (path signal 120  -1060 -1000  -1060 -7060))
+      (outline (path signal 120  1060 -1000  1060 -7060))
+      (outline (path signal 120  -1060 -1000  1060 -1000))
+      (outline (path signal 120  -1060 0  -1060 1060))
+      (outline (path signal 120  -1060 1060  0 1060))
+      (outline (path signal 50  -1500 1500  -1500 -7500))
+      (outline (path signal 50  -1500 -7500  1500 -7500))
+      (outline (path signal 50  1500 -7500  1500 1500))
+      (outline (path signal 50  1500 1500  -1500 1500))
+      (pin Rect[A]Pad_1350x1350_um 1 0 0)
+      (pin Oval[A]Pad_1350x1350_um 2 0 -2000)
+      (pin Oval[A]Pad_1350x1350_um 3 0 -4000)
+      (pin Oval[A]Pad_1350x1350_um 4 0 -6000)
+    )
+    (image Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+      (outline (path signal 100  740 800  740 -800))
+      (outline (path signal 100  740 -800  4340 -800))
+      (outline (path signal 100  4340 -800  4340 800))
+      (outline (path signal 100  4340 800  740 800))
+      (outline (path signal 100  0 0  740 0))
+      (outline (path signal 100  5080 0  4340 0))
+      (outline (path signal 120  680 860  4400 860))
+      (outline (path signal 120  680 -860  4400 -860))
+      (outline (path signal 50  -950 1150  -950 -1150))
+      (outline (path signal 50  -950 -1150  6050 -1150))
+      (outline (path signal 50  6050 -1150  6050 1150))
+      (outline (path signal 50  6050 1150  -950 1150))
+      (pin Round[A]Pad_1400_um 1 0 0)
+      (pin Oval[A]Pad_1400x1400_um 2 5080 0)
+    )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1350x1350_um
+      (shape (path F.Cu 1350  0 0  0 0))
+      (shape (path B.Cu 1350  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1400x1400_um
+      (shape (path F.Cu 1400  0 0  0 0))
+      (shape (path B.Cu 1400  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1350x1350_um
+      (shape (rect F.Cu -675 -675 675 675))
+      (shape (rect B.Cu -675 -675 675 675))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad1)"
+      (pins U1-2 J1-1)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins U1-1 J1-2 R1-1)
+    )
+    (net GND
+      (pins U1-5 J1-3 R1-2)
+    )
+    (net +5V
+      (pins U1-6 J1-4)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U1-3)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U1-4)
+    )
+    (class kicad_default "" +5V GND "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(U1-Pad3)"
+      "Net-(U1-Pad4)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  128270 -99440  143890 -99440  144780 -100330)(net GND)(type protect))
+  )
+)
