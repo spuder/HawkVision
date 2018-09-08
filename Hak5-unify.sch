@@ -42,21 +42,21 @@ U 1 1 5B726601
 P 3350 2300
 F 0 "R1" V 3430 2300 50  0000 C CNN
 F 1 "R" V 3350 2300 50  0000 C CNN
-F 2 "" V 3280 2300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3280 2300 50  0001 C CNN
 F 3 "" H 3350 2300 50  0001 C CNN
 	1    3350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hak5-unify-rescue:Conn_01x04 J1
+L Connector:Conn_01x02_Male J1
 U 1 1 5B72F16A
-P 6800 2650
-F 0 "J1" H 6800 2850 50  0000 C CNN
-F 1 "Conn_01x04" H 6800 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6800 2650 50  0001 C CNN
-F 3 "" H 6800 2650 50  0001 C CNN
-	1    6800 2650
-	1    0    0    -1  
+P 6200 2650
+F 0 "J1" H 6200 2850 50  0000 C CNN
+F 1 "Conn_01x02" H 6200 2350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6200 2650 50  0001 C CNN
+F 3 "" H 6200 2650 50  0001 C CNN
+	1    6200 2650
+	-1   0    0    1   
 $EndComp
 $Comp
 L Hak5-unify-rescue:Conn_01x03 J2
@@ -69,7 +69,7 @@ F 3 "" H 3400 3000 50  0001 C CNN
 	1    3400 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 2550 0    60   Input ~ 0
+Text GLabel 6000 2650 0    60   Input ~ 0
 TX
 Text GLabel 3900 2550 0    60   Input ~ 0
 TX
@@ -99,21 +99,8 @@ F 3 "" H 3200 2900 50  0001 C CNN
 	1    3200 2900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6600 2650 0    60   Input ~ 0
-RX
 Wire Wire Line
 	3900 2150 3350 2150
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5B778E01
-P 4900 1750
-F 0 "SW1" H 4900 2035 50  0000 C CNN
-F 1 "SW_Push" H 4900 1944 50  0000 C CNN
-F 2 "" H 4900 1950 50  0001 C CNN
-F 3 "" H 4900 1950 50  0001 C CNN
-	1    4900 1750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Hak5-unify-rescue:Unify-Nano U1
 U 1 1 5B726417
@@ -125,14 +112,6 @@ F 3 "" H 4700 3250 60  0001 C CNN
 	1    4700 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 1750 5100 2300
-Wire Wire Line
-	5100 2300 4950 2300
-Wire Wire Line
-	4700 1750 4700 2300
-Wire Wire Line
-	4700 2300 4800 2300
 Wire Wire Line
 	4000 2650 3700 2650
 Wire Wire Line
@@ -152,17 +131,6 @@ F 1 "GND" H 3355 2277 50  0000 C CNN
 F 2 "" H 3350 2450 50  0001 C CNN
 F 3 "" H 3350 2450 50  0001 C CNN
 	1    3350 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 5B8F658D
-P 6350 1900
-F 0 "J3" H 6377 1926 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 6377 1835 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6350 1900 50  0001 C CNN
-F 3 "~" H 6350 1900 50  0001 C CNN
-	1    6350 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
