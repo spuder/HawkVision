@@ -1,0 +1,75 @@
+Cmp-Mod V01 Created by PcbNew   date = Tuesday, September 11, 2018 at 10:13:52 PM
+
+BeginCmp
+TimeStamp = 5B84C78F
+Path = /5B726417
+Reference = U1;
+ValeurCmp = Unify-Nano;
+IdModule  = unify-nano:unify-nano;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B79E9D0
+Path = /5B7500FF
+Reference = J2;
+ValeurCmp = Conn_01x03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BA3856C
+Path = /5B98601D
+Reference = Q1;
+ValeurCmp = 2N7002;
+IdModule  = Package_TO_SOT_THT:TO-92_Inline;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BA7496C
+Path = /5B986C0D
+Reference = Q2;
+ValeurCmp = SSM3K344R,LF;
+IdModule  = Package_TO_SOT_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC6BF05
+Path = /5B726601
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC9905C
+Path = /5B94BC43
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC99228
+Path = /5B986D27
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC98D9F
+Path = /5B72F16A
+Reference = J1;
+ValeurCmp = Conn_01x04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE8EDAD
+Path = /5B98A042
+Reference = JP1;
+ValeurCmp = SolderJumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;
+EndCmp
+
+EndListe

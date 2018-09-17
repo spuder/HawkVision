@@ -1,3 +1,10 @@
+# v0.6.0
+Add solder pads for button
+Use larger restistors
+Remove unneeded ground pad to give more room near bottom
+Move traces to underside
+Add vias in the corners to improve cutout
+
 # v0.4.1
 Only do partial cutout at VTX to improve clearance for screws
 
