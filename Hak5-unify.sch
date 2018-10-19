@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR01
-U 1 1 5B72656F
-P 4000 2950
-F 0 "#PWR01" H 4000 2700 50  0001 C CNN
-F 1 "GND" H 4000 2800 50  0000 C CNN
-F 2 "" H 4000 2950 50  0001 C CNN
-F 3 "" H 4000 2950 50  0001 C CNN
-	1    4000 2950
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5B726601
 P 3350 2300
@@ -48,7 +37,7 @@ F 3 "" H 6200 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Hak5-unify-rescue:Conn_01x03 J2
+L Hak5-unify-rescue:Conn_01x03-Hak5-unify-rescue J2
 U 1 1 5B7500FF
 P 3400 3000
 F 0 "J2" H 3400 3200 50  0000 C CNN
@@ -80,7 +69,7 @@ $EndComp
 Wire Wire Line
 	3900 2150 3350 2150
 $Comp
-L Hak5-unify-rescue:Unify-Nano U1
+L Hak5-unify-rescue:Unify-Nano-Hak5-unify-rescue U1
 U 1 1 5B726417
 P 4700 3250
 F 0 "U1" H 4650 4050 60  0000 C CNN
@@ -113,8 +102,6 @@ F 3 "" H 3350 2450 50  0001 C CNN
 $EndComp
 Text GLabel 6000 2650 0    50   Input ~ 0
 RX
-Wire Wire Line
-	3900 3050 4000 3050
 $Comp
 L Device:R R2
 U 1 1 5B94BC43
@@ -151,8 +138,6 @@ F 3 "~" H 2700 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2900 3700 3150 3700
-Wire Wire Line
 	3150 3700 3150 3750
 $Comp
 L power:GND #PWR0102
@@ -176,22 +161,7 @@ F 3 "" H 3200 2900 50  0001 C CNN
 	1    3200 2900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR0104
-U 1 1 5B9876B2
-P 2900 3700
-F 0 "#PWR0104" H 2900 3550 50  0001 C CNN
-F 1 "+5V" V 2915 3828 50  0000 L CNN
-F 2 "" H 2900 3700 50  0001 C CNN
-F 3 "" H 2900 3700 50  0001 C CNN
-	1    2900 3700
-	0    -1   -1   0   
-$EndComp
 Connection ~ 2850 3950
-Wire Wire Line
-	3150 4150 3900 4150
-Wire Wire Line
-	3900 4150 3900 3050
 $Comp
 L power:+5V #PWR0105
 U 1 1 5B988E48
@@ -225,18 +195,6 @@ F 3 "~" H 4050 4150 50  0001 C CNN
 	1    4050 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 3900 4150
-$Comp
-L power:+5V #PWR0107
-U 1 1 5B98A0F2
-P 4200 4150
-F 0 "#PWR0107" H 4200 4000 50  0001 C CNN
-F 1 "+5V" V 4215 4278 50  0000 L CNN
-F 2 "" H 4200 4150 50  0001 C CNN
-F 3 "" H 4200 4150 50  0001 C CNN
-	1    4200 4150
-	0    1    1    0   
-$EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5B9EB406
@@ -256,4 +214,48 @@ Wire Wire Line
 	4800 2300 4650 2300
 Wire Wire Line
 	4650 2300 4650 2150
+Wire Wire Line
+	3900 2950 4000 2950
+Wire Wire Line
+	3900 2950 3900 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5BC424FD
+P 4200 4150
+F 0 "#PWR?" H 4200 3900 50  0001 C CNN
+F 1 "GND" V 4205 4022 50  0000 R CNN
+F 2 "" H 4200 4150 50  0001 C CNN
+F 3 "" H 4200 4150 50  0001 C CNN
+	1    4200 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC4255C
+P 3150 4300
+F 0 "#PWR?" H 3150 4050 50  0001 C CNN
+F 1 "GND" V 3155 4172 50  0000 R CNN
+F 2 "" H 3150 4300 50  0001 C CNN
+F 3 "" H 3150 4300 50  0001 C CNN
+	1    3150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BC425D3
+P 4000 3050
+F 0 "#PWR?" H 4000 2900 50  0001 C CNN
+F 1 "+5V" H 4015 3223 50  0000 C CNN
+F 2 "" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 3700 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	3900 3700 3900 4150
+Wire Wire Line
+	3150 4150 3150 4300
 $EndSCHEMATC
