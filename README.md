@@ -26,5 +26,8 @@ Additional parts
 - https://www.sparkfun.com/products/10213
 - https://www.adafruit.com/product/355
 
-https://forum.arduino.cc/t/need-a-3-3v-logic-level-mosfet/933013/2
-https://electronics.stackexchange.com/a/235682/23954
+### Resources
+
+https://dronebotworkshop.com/transistors-mosfets/  
+https://forum.arduino.cc/t/need-a-3-3v-logic-level-mosfet/933013/2  
+https://electronics.stackexchange.com/a/235682/23954  
