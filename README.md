@@ -22,7 +22,7 @@ Based off the same idea as [whitenoise FPV](https://whitenoisefpv.com/collection
 
 Any N-Channel mosfet _should_ work as log as it is a 'logic level mosfet'. A logic level mosfet has a VGS (aka gate voltage or Gate-Source threshold voltage MAX which is less than 5v or 3.3 volts). (e.g a VGS of 4.0 would work on a 5v arduino, but not a 3.3v arduino. 
 
-- [N Channel Mosfet 863-NTR4501NT1G](https://www.mouser.com/ProductDetail/863-NTR4501NT1G)  
+- [N Channel Mosfet 863-NTR4501NT1G](https://www.mouser.com/ProductDetail/863-NTR4501NT1G)  <- Most shipped units were this model
 - [N Channel Mosftet  PVM64UNE](https://www.mouser.com/ProductDetail/771-PMV65UNER) 
 - [10K Resistors](https://www.mouser.com/ProductDetail/660-CFS1-4C103J)  
 - [N Channel Mosfet SSM3K344R](https://www.mouser.com/ProductDetail/757-SSM3K344RLF)  
