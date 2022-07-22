@@ -11,6 +11,13 @@ Adapter board that makes it easy to mount a TBS unify nano to the Hawk 5
 Based off the same idea as [whitenoise FPV](https://whitenoisefpv.com/collections/electronics/products/unify-nano-mounting-board) but designed specifically for the emax stack
 
 
+
+## Schematic
+
+![](images/41548453_187103345422548_5981061960513355776_n.jpg)  
+![](images/schematic.png)  
+![](images/pinout.png)  
+
 ## BOM
 
 Any N-Channel mosfet _should_ work as log as it is a 'logic level mosfet'. A logic level mosfet has a VGS (aka gate voltage or Gate-Source threshold voltage MAX which is less than 5v or 3.3 volts). (e.g a VGS of 4.0 would work on a 5v arduino, but not a 3.3v arduino. 
